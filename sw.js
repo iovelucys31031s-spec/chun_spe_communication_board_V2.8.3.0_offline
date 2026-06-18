@@ -2,10 +2,11 @@ const CACHE_NAME = 'aac-board-v2.8.6'; // 更新版本號
 
 const urlsToCache = [
   './',
-  './index.html',
+  './index.html', // 記得你的 HTML 檔名在 GitHub 上要是小寫的 index.html 喔！
   './manifest.json',
   './icon.png',
   'https://cdn.tailwindcss.com',
+  // 下方三個網址已經同步更新為 jsdelivr 的穩定來源
   'https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js',
   'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js',
   'https://cdn.jsdelivr.net/npm/@babel/standalone@7.23.6/babel.min.js'
